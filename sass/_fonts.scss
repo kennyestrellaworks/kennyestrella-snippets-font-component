@@ -1,0 +1,429 @@
+@font-face {
+    font-family: "Lato Black";
+    src: url("../fonts/Lato-Black.eot");
+    src: url("../fonts/Lato-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Black.woff2") format("woff2"),
+        url("../fonts/Lato-Black.woff") format("woff"),
+        url("../fonts/Lato-Black.ttf") format("truetype"),
+        url("../fonts/Lato-Black.svg#Lato_Black") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato BlackItalic";
+    src: url("../fonts/Lato-BlackItalic.eot");
+    src: url("../fonts/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-BlackItalic.woff2") format("woff2"),
+        url("../fonts/Lato-BlackItalic.woff") format("woff"),
+        url("../fonts/Lato-BlackItalic.ttf") format("truetype"),
+        url("../fonts/Lato-BlackItalic.svg#Lato_BlackItalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato Bold";
+    src: url("../fonts/Lato-Bold.eot");
+    src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Bold.woff2") format("woff2"),
+        url("../fonts/Lato-Bold.woff") format("woff"),
+        url("../fonts/Lato-Bold.ttf") format("truetype"),
+        url("../fonts/Lato-Bold.svg#Lato_Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato BoldItalic";
+    src: url("../fonts/Lato-BoldItalic.eot");
+    src: url("../fonts/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-BoldItalic.woff2") format("woff2"),
+        url("../fonts/Lato-BoldItalic.woff") format("woff"),
+        url("../fonts/Lato-BoldItalic.ttf") format("truetype"),
+        url("../fonts/Lato-BoldItalic.svg#Lato_BoldItalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato Hairline";
+    src: url("../fonts/Lato-Hairline.eot");
+    src: url("../fonts/Lato-Hairline.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Hairline.woff2") format("woff2"),
+        url("../fonts/Lato-Hairline.woff") format("woff"),
+        url("../fonts/Lato-Hairline.ttf") format("truetype"),
+        url("../fonts/Lato-Hairline.svg#Lato_Hairline") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato HairlineItalic";
+    src: url("../fonts/Lato-HairlineItalic.eot");
+    src: url("../fonts/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-HairlineItalic.woff2") format("woff2"),
+        url("../fonts/Lato-HairlineItalic.woff") format("woff"),
+        url("../fonts/Lato-HairlineItalic.ttf") format("truetype"),
+        url("../fonts/Lato-HairlineItalic.svg#Lato_HairlineItalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato Italic";
+    src: url("../fonts/Lato-Italic.eot");
+    src: url("../fonts/Lato-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Italic.woff2") format("woff2"),
+        url("../fonts/Lato-Italic.woff") format("woff"),
+        url("../fonts/Lato-Italic.ttf") format("truetype"),
+        url("../fonts/Lato-Italic.svg#Lato_Italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato Light";
+    src: url("../fonts/Lato-Light.eot");
+    src: url("../fonts/Lato-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Light.woff2") format("woff2"),
+        url("../fonts/Lato-Light.woff") format("woff"),
+        url("../fonts/Lato-Light.ttf") format("truetype"),
+        url("../fonts/Lato-Light.svg#Lato_Light") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato LightItalic";
+    src: url("../fonts/Lato-LightItalic.eot");
+    src: url("../fonts/Lato-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-LightItalic.woff2") format("woff2"),
+        url("../fonts/Lato-LightItalic.woff") format("woff"),
+        url("../fonts/Lato-LightItalic.ttf") format("truetype"),
+        url("../fonts/Lato-LightItalic.svg#Lato_LightItalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato Regular";
+    src: url("../fonts/Lato-Regular.eot");
+    src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Regular.woff2") format("woff2"),
+        url("../fonts/Lato-Regular.woff") format("woff"),
+        url("../fonts/Lato-Regular.ttf") format("truetype"),
+        url("../fonts/Lato-Regular.svg#Lato_Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: "Roboto Light";
+	src: url("../fonts/Roboto-Light.eot");
+	src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Roboto-Light.woff2") format("woff2"),
+		url("../fonts/Roboto-Light.woff") format("woff"),
+		url("../fonts/Roboto-Light.ttf") format("truetype"),
+		url("../fonts/Roboto-Light.svg#Roboto_Light") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: "Roboto Slab Bold";
+    src: url("../fonts/Roboto-Slab-Bold.eot");
+    src: url("../fonts/Roboto-Slab-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Slab-Bold.woff2") format("woff2"),
+        url("../fonts/Roboto-Slab-Bold.woff") format("woff"),
+        url("../fonts/Roboto-Slab-Bold.ttf") format("truetype"),
+        url("../fonts/Roboto-Slab-Bold.svg#Roboto_Slab_Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto Slab Light";
+    src: url("../fonts/Roboto-Slab-Light.eot");
+    src: url("../fonts/Roboto-Slab-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Slab-Light.woff2") format("woff2"),
+        url("../fonts/Roboto-Slab-Light.woff") format("woff"),
+        url("../fonts/Roboto-Slab-Light.ttf") format("truetype"),
+        url("../fonts/Roboto-Slab-Light.svg#Roboto_Slab_Light") format("svg");
+    font-weight: normal;
+}
+    
+@font-face {
+    font-family: "Verdana Bold";
+    src: url("../fonts/Verdana-Bold.eot");
+    src: url("../fonts/Verdana-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Verdana-Bold.woff2") format("woff2"),
+        url("../fonts/Verdana-Bold.woff") format("woff"),
+        url("../fonts/Verdana-Bold.ttf") format("truetype"),
+        url("../fonts/Verdana-Bold.svg#Verdana_Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Verdana Italic";
+    src: url("../fonts/Verdana-Italic.eot");
+    src: url("../fonts/Verdana-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Verdana-Italic.woff2") format("woff2"),
+        url("../fonts/Verdana-Italic.woff") format("woff"),
+        url("../fonts/Verdana-Italic.ttf") format("truetype"),
+        url("../fonts/Verdana-Italic.svg#Verdana_Italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Verdana Regular";
+    src: url("../fonts/Verdana-Regular.eot");
+    src: url("../fonts/Verdana-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Verdana-Regular.woff2") format("woff2"),
+        url("../fonts/Verdana-Regular.woff") format("woff"),
+        url("../fonts/Verdana-Regular.ttf") format("truetype"),
+        url("../fonts/Verdana-Regular.svg#Verdana_Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Pier Sans Bold";
+    src: url("../fonts/Pier-Sans-Bold.eot");
+    src: url("../fonts/Pier-Sans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Pier-Sans-Bold.woff2") format("woff2"),
+        url("../fonts/Pier-Sans-Bold.woff") format("woff"),
+        url("../fonts/Pier-Sans-Bold.ttf") format("truetype"),
+        url("../fonts/Pier-Sans-Bold.svg#Pier_Sans_Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Abel Regular";
+    src: url("../fonts/Abel-Regular.eot");
+    src: url("../fonts/Abel-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Abel-Regular.woff2") format("woff2"),
+        url("../fonts/Abel-Regular.woff") format("woff"),
+        url("../fonts/Abel-Regular.ttf") format("truetype"),
+        url("../fonts/Abel-Regular.svg#Abel_Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PublicSans Regular";
+    src: url("../fonts/PublicSans-Regular.eot");
+    src: url("../fonts/PublicSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/PublicSans-Regular.woff2") format("woff2"),
+        url("../fonts/PublicSans-Regular.woff") format("woff"),
+        url("../fonts/PublicSans-Regular.ttf") format("truetype"),
+        url("../fonts/PublicSans-Regular.svg#PublicSans_Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MuseoSans Rounded 700";
+    src: url("../fonts/MuseoSans-Rounded-700.eot");
+    src: url("../fonts/MuseoSans-Rounded-700.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/MuseoSans-Rounded-700.woff2") format("woff2"),
+        url("../fonts/MuseoSans-Rounded-700.woff") format("woff"),
+        url("../fonts/MuseoSans-Rounded-700.ttf") format("truetype"),
+        url("../fonts/MuseoSans-Rounded-700.svg#MuseoSans_Rounded_700") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway Medium";
+    src: url("../fonts/Raleway-Medium.eot");
+    src: url("../fonts/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Raleway-Medium.woff2") format("woff2"),
+        url("../fonts/Raleway-Medium.woff") format("woff"),
+        url("../fonts/Raleway-Medium.ttf") format("truetype"),
+        url("../fonts/Raleway-Medium.svg#Raleway_Medium") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Alice Regular";
+    src: url("../fonts/Alice-Regular.eot");
+    src: url("../fonts/Alice-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Alice-Regular.woff2") format("woff2"),
+        url("../fonts/Alice-Regular.woff") format("woff"),
+        url("../fonts/Alice-Regular.ttf") format("truetype"),
+        url("../fonts/Alice-Regular.svg#Alice_Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NexaRustSlab BlackShadow01";
+    src: url("../fonts/NexaRustSlab-BlackShadow01.eot");
+    src: url("../fonts/NexaRustSlab-BlackShadow01.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/NexaRustSlab-BlackShadow01.woff2") format("woff2"),
+        url("../fonts/NexaRustSlab-BlackShadow01.woff") format("woff"),
+        url("../fonts/NexaRustSlab-BlackShadow01.ttf") format("truetype"),
+        url("../fonts/NexaRustSlab-BlackShadow01.svg#NexaRustSlab_BlackShadow01") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cream Cake";
+    src: url("../fonts/Cream-Cake.eot");
+    src: url("../fonts/Cream-Cake.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Cream-Cake.woff2") format("woff2"),
+        url("../fonts/Cream-Cake.woff") format("woff"),
+        url("../fonts/Cream-Cake.ttf") format("truetype"),
+        url("../fonts/Cream-Cake.svg#Cream_Cake") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Hello Valentina";
+    src: url("../fonts/Hello-Valentina.eot");
+    src: url("../fonts/Hello-Valentina.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Hello-Valentina.woff2") format("woff2"),
+        url("../fonts/Hello-Valentina.woff") format("woff"),
+        url("../fonts/Hello-Valentina.ttf") format("truetype"),
+        url("../fonts/Hello-Valentina.svg#Hello_Valentina") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Eastwood";
+    src: url("../fonts/Eastwood.eot");
+    src: url("../fonts/Eastwood.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Eastwood.woff2") format("woff2"),
+        url("../fonts/Eastwood.woff") format("woff"),
+        url("../fonts/Eastwood.ttf") format("truetype"),
+        url("../fonts/Eastwood.svg#Eastwood") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Eastwood Italic";
+    src: url("../fonts/Eastwood-Italic.eot");
+    src: url("../fonts/Eastwood-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Eastwood-Italic.woff2") format("woff2"),
+        url("../fonts/Eastwood-Italic.woff") format("woff"),
+        url("../fonts/Eastwood-Italic.ttf") format("truetype"),
+        url("../fonts/Eastwood-Italic.svg#Eastwood_Italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-lato-black: 'Lato Black', sans-serif;
+$font-lato-blackitalic: 'Lato BlackItalic', sans-serif;
+$font-lato-bold: 'Lato Bold', sans-serif;
+$font-lato-bolditalic: 'Lato BoldItalic', sans-serif;
+$font-lato-hairline: 'Lato Hairline', sans-serif;
+$font-lato-hairlineitalic: 'Lato HairlineItalic', sans-serif;
+$font-lato-italic: 'Lato Italic', sans-serif;
+$font-lato-light: 'Lato Light', sans-serif;
+$font-lato-lightitalic: 'Lato LightItalic', sans-serif;
+$font-lato-regular: 'Lato Regular', sans-serif;
+$font-roboto-light: 'Roboto Light', sans-serif;
+$font-roboto-slab-bold: 'Roboto Slab Bold', sans-serif;
+$font-roboto-slab-light: 'Roboto Slab Light', sans-serif;
+$font-verdana-bold: 'Verdana Bold', sans-serif;
+$font-verdana-italic: 'Verdana Italic', sans-serif;
+$font-verdana-regular: 'Verdana Regular', sans-serif;
+$font-pier-sans-bold: 'Pier Sans Bold', sans-serif;
+$font-abel-regular: 'Abel Regular', sans-serif;
+$font-publicsans-regular: 'PublicSans Regular', sans-serif;
+$font-museosans-rounded-700: 'MuseoSans Rounded 700', sans-serif;
+$font-raleway-medium: 'Raleway Medium', sans-serif;
+$font-alice-regular: 'Alice Regular', sans-serif;
+$font-nexarustslab-blackshadow01: 'NexaRustSlab BlackShadow01', sans-serif;
+$font-cream-cake: 'Cream Cake', sans-serif;
+$font-hello-valentina: 'Hello Valentina', sans-serif;
+$font-eastwood: 'Eastwood', sans-serif;
+$font-eastwood-italic: 'Eastwood Italic', sans-serif;
+
+.font-component {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    &__box {
+        margin: 2rem 0;
+        max-width: 1170px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 2rem;
+    }
+    &__wrap {
+        border: 2px solid black;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    &__lato-black {
+        font-family: $font-lato-black;
+    }
+    &__lato-blackitalic {
+        font-family: $font-lato-blackitalic;
+    }
+    &__lato-bold {
+        font-family: $font-lato-bold;
+    }
+    &__lato-bolditalic {
+        font-family: $font-lato-bolditalic;
+    }
+    &__lato-hairline {
+        font-family: $font-lato-hairline;
+    }
+    &__lato-hairlineitalic {
+        font-family: $font-lato-hairlineitalic;
+    }
+    &__lato-italic {
+        font-family: $font-lato-italic;
+    }
+    &__lato-light {
+        font-family: $font-lato-light;
+    }
+    &__lato-lightitalic {
+        font-family: $font-lato-lightitalic;
+    }
+    &__lato-regular {
+        font-family: $font-lato-regular;
+    }
+    &__roboto-light {
+        font-family: $font-roboto-light;
+    }
+    &__roboto-slab-bold {
+        font-family: $font-roboto-slab-bold;
+    }
+    &__roboto-slab-light {
+        font-family: $font-roboto-slab-light;
+    }
+    &__verdana-bold {
+        font-family: $font-verdana-bold;
+    }
+    &__verdana-italic {
+        font-family: $font-verdana-italic;
+    }
+    &__verdana-regular {
+        font-family: $font-verdana-regular;
+    }
+    &__pier-sans-bold {
+        font-family: $font-pier-sans-bold;
+    }
+    &__abel-regular {
+        font-family: $font-abel-regular;
+    }
+    &__publicsans-regular {
+        font-family: $font-publicsans-regular;
+    }
+    &__museosans-rounded-700 {
+        font-family: $font-museosans-rounded-700;
+    }
+    &__raleway-medium {
+        font-family: $font-raleway-medium;
+    }
+    &__alice-regular {
+        font-family: $font-alice-regular;
+    }
+    &__nexarustslab-blackshadow01 {
+        font-family: $font-nexarustslab-blackshadow01;
+    }
+    &__cream-cake {
+        font-family: $font-cream-cake;
+    }
+    &__hello-valentina {
+        font-family: $font-hello-valentina;
+    }
+    &__eastwood {
+        font-family: $font-eastwood;
+    }
+    &__eastwood-italic {
+        font-family: $font-eastwood-italic;
+    }
+}
