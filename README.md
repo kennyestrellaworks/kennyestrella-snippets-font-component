@@ -1,5 +1,8 @@
 # Font Component
 
+#### Aug 11 2022
+Added Quitars, Zasline and Rubik fonts.
+
 #### Aug 6 2022
 Added some RobotoMono fonts.
 
