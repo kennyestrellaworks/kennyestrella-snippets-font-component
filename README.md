@@ -1,5 +1,8 @@
 # Font Component
 
+#### Aug 12 2022
+Added the remaining set of Rubic fonts.
+
 #### Aug 11 2022
 Added Quitars, Zasline and Rubik fonts.
 
