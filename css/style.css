@@ -340,6 +340,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Freshman";
+  src: url("../fonts/Freshman.eot");
+  src: url("../fonts/Freshman.eot?#iefix") format("embedded-opentype"), url("../fonts/Freshman.woff2") format("woff2"), url("../fonts/Freshman.woff") format("woff"), url("../fonts/Freshman.ttf") format("truetype"), url("../fonts/Freshman.svg#Freshman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .font-component {
   width: 90vw;
   margin: 0 auto;
@@ -508,6 +515,9 @@
 }
 .font-component__rubik-lightitalic {
   font-family: "Rubik LightItalic", sans-serif;
+}
+.font-component__freshman {
+  font-family: "Freshman", sans-serif;
 }
 
 * {

@@ -538,6 +538,17 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "Freshman";
+    src: url("../fonts/Freshman.eot");
+    src: url("../fonts/Freshman.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Freshman.woff2") format("woff2"),
+        url("../fonts/Freshman.woff") format("woff"),
+        url("../fonts/Freshman.ttf") format("truetype"),
+        url("../fonts/Freshman.svg#Freshman") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 $font-lato-black: 'Lato Black', sans-serif;
 $font-lato-blackitalic: 'Lato BlackItalic', sans-serif;
@@ -578,7 +589,6 @@ $font-robotomono-thin: 'RobotoMono Thin', sans-serif;
 $font-robotomono-thinitalic: 'RobotoMono ThinItalic', sans-serif;
 $font-quitars: 'Quitars', sans-serif;
 $font-zasline: 'Zasline', sans-serif;
-
 $font-rubik-bold: 'Rubik Bold', sans-serif;
 $font-rubik-bolditalic: 'Rubik BoldItalic', sans-serif;
 $font-rubik-italic: 'Rubik Italic', sans-serif;
@@ -589,6 +599,7 @@ $font-rubik-mediumitalic: 'Rubik MediumItalic', sans-serif;
 $font-rubik-regular: 'Rubik Regular', sans-serif;
 $font-rubik-light: 'Rubik Light', sans-serif;
 $font-rubik-lightitalic: 'Rubik LightItalic', sans-serif;
+$font-freshman: 'Freshman', sans-serif;
 
 .font-component {
     width: 90vw;
@@ -650,7 +661,6 @@ $font-rubik-lightitalic: 'Rubik LightItalic', sans-serif;
     &__robotomono-thinitalic { font-family: $font-robotomono-thinitalic; }
     &__quitars { font-family: $font-quitars; }
     &__zasline { font-family: $font-zasline; }
-
     &__rubik-bold { font-family: $font-rubik-bold; }
     &__rubik-bolditalic { font-family: $font-rubik-bolditalic; }
     &__rubik-italic { font-family: $font-rubik-italic; }
@@ -661,4 +671,5 @@ $font-rubik-lightitalic: 'Rubik LightItalic', sans-serif;
     &__rubik-regular { font-family: $font-rubik-regular; }
     &__rubik-light { font-family: $font-rubik-light; }
     &__rubik-lightitalic { font-family: $font-rubik-lightitalic; }
+    &__freshman { font-family: $font-freshman; }
 }
