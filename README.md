@@ -1,5 +1,8 @@
 # Font Component
 
+#### Aug 18 2022
+Added the remaining set of Freshman font.
+
 #### Aug 12 2022
 Added the remaining set of Rubic fonts.
 
