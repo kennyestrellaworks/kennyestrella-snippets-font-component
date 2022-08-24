@@ -347,6 +347,55 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "TwCenMT Bold";
+  src: url("../fonts/TwCenMT-Bold.eot");
+  src: url("../fonts/TwCenMT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TwCenMT-Bold.woff2") format("woff2"), url("../fonts/TwCenMT-Bold.woff") format("woff"), url("../fonts/TwCenMT-Bold.ttf") format("truetype"), url("../fonts/TwCenMT-Bold.svg#TwCenMT_Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TwCenMT BoldItalic";
+  src: url("../fonts/TwCenMT-BoldItalic.eot");
+  src: url("../fonts/TwCenMT-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TwCenMT-BoldItalic.woff2") format("woff2"), url("../fonts/TwCenMT-BoldItalic.woff") format("woff"), url("../fonts/TwCenMT-BoldItalic.ttf") format("truetype"), url("../fonts/TwCenMT-BoldItalic.svg#TwCenMT_BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TwCenMT Condensed";
+  src: url("../fonts/TwCenMT-Condensed.eot");
+  src: url("../fonts/TwCenMT-Condensed.eot?#iefix") format("embedded-opentype"), url("../fonts/TwCenMT-Condensed.woff2") format("woff2"), url("../fonts/TwCenMT-Condensed.woff") format("woff"), url("../fonts/TwCenMT-Condensed.ttf") format("truetype"), url("../fonts/TwCenMT-Condensed.svg#TwCenMT_Condensed") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TwCenMT CondensedBold";
+  src: url("../fonts/TwCenMT-CondensedBold.eot");
+  src: url("../fonts/TwCenMT-CondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/TwCenMT-CondensedBold.woff2") format("woff2"), url("../fonts/TwCenMT-CondensedBold.woff") format("woff"), url("../fonts/TwCenMT-CondensedBold.ttf") format("truetype"), url("../fonts/TwCenMT-CondensedBold.svg#TwCenMT_CondensedBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TwCenMT CondensedExtraBold";
+  src: url("../fonts/TwCenMT-CondensedExtraBold.eot");
+  src: url("../fonts/TwCenMT-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/TwCenMT-CondensedExtraBold.woff2") format("woff2"), url("../fonts/TwCenMT-CondensedExtraBold.woff") format("woff"), url("../fonts/TwCenMT-CondensedExtraBold.ttf") format("truetype"), url("../fonts/TwCenMT-CondensedExtraBold.svg#TwCenMT_CondensedExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TwCenMT Italic";
+  src: url("../fonts/TwCenMT-Italic.eot");
+  src: url("../fonts/TwCenMT-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/TwCenMT-Italic.woff2") format("woff2"), url("../fonts/TwCenMT-Italic.woff") format("woff"), url("../fonts/TwCenMT-Italic.ttf") format("truetype"), url("../fonts/TwCenMT-Italic.svg#TwCenMT_Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TwCenMT";
+  src: url("../fonts/TwCenMT.eot");
+  src: url("../fonts/TwCenMT.eot?#iefix") format("embedded-opentype"), url("../fonts/TwCenMT.woff2") format("woff2"), url("../fonts/TwCenMT.woff") format("woff"), url("../fonts/TwCenMT.ttf") format("truetype"), url("../fonts/TwCenMT.svg#TwCenMT") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .font-component {
   width: 90vw;
   margin: 0 auto;
@@ -518,6 +567,27 @@
 }
 .font-component__freshman {
   font-family: "Freshman", sans-serif;
+}
+.font-component__twcenmt-bold {
+  font-family: "TwCenMT Bold", sans-serif;
+}
+.font-component__twcenmt-bolditalic {
+  font-family: "TwCenMT BoldItalic", sans-serif;
+}
+.font-component__twcenmt-condensed {
+  font-family: "TwCenMT Condensed", sans-serif;
+}
+.font-component__twcenmt-condensedbold {
+  font-family: "TwCenMT CondensedBold", sans-serif;
+}
+.font-component__twcenmt-condensedextrabold {
+  font-family: "TwCenMT CondensedExtraBold", sans-serif;
+}
+.font-component__twcenmt-italic {
+  font-family: "TwCenMT Italic", sans-serif;
+}
+.font-component__twcenmt {
+  font-family: "TwCenMT", sans-serif;
 }
 
 * {

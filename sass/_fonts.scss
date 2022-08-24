@@ -549,6 +549,83 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "TwCenMT Bold";
+    src: url("../fonts/TwCenMT-Bold.eot");
+    src: url("../fonts/TwCenMT-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TwCenMT-Bold.woff2") format("woff2"),
+        url("../fonts/TwCenMT-Bold.woff") format("woff"),
+        url("../fonts/TwCenMT-Bold.ttf") format("truetype"),
+        url("../fonts/TwCenMT-Bold.svg#TwCenMT_Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TwCenMT BoldItalic";
+    src: url("../fonts/TwCenMT-BoldItalic.eot");
+    src: url("../fonts/TwCenMT-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TwCenMT-BoldItalic.woff2") format("woff2"),
+        url("../fonts/TwCenMT-BoldItalic.woff") format("woff"),
+        url("../fonts/TwCenMT-BoldItalic.ttf") format("truetype"),
+        url("../fonts/TwCenMT-BoldItalic.svg#TwCenMT_BoldItalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TwCenMT Condensed";
+    src: url("../fonts/TwCenMT-Condensed.eot");
+    src: url("../fonts/TwCenMT-Condensed.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TwCenMT-Condensed.woff2") format("woff2"),
+        url("../fonts/TwCenMT-Condensed.woff") format("woff"),
+        url("../fonts/TwCenMT-Condensed.ttf") format("truetype"),
+        url("../fonts/TwCenMT-Condensed.svg#TwCenMT_Condensed") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TwCenMT CondensedBold";
+    src: url("../fonts/TwCenMT-CondensedBold.eot");
+    src: url("../fonts/TwCenMT-CondensedBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TwCenMT-CondensedBold.woff2") format("woff2"),
+        url("../fonts/TwCenMT-CondensedBold.woff") format("woff"),
+        url("../fonts/TwCenMT-CondensedBold.ttf") format("truetype"),
+        url("../fonts/TwCenMT-CondensedBold.svg#TwCenMT_CondensedBold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TwCenMT CondensedExtraBold";
+    src: url("../fonts/TwCenMT-CondensedExtraBold.eot");
+    src: url("../fonts/TwCenMT-CondensedExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TwCenMT-CondensedExtraBold.woff2") format("woff2"),
+        url("../fonts/TwCenMT-CondensedExtraBold.woff") format("woff"),
+        url("../fonts/TwCenMT-CondensedExtraBold.ttf") format("truetype"),
+        url("../fonts/TwCenMT-CondensedExtraBold.svg#TwCenMT_CondensedExtraBold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TwCenMT Italic";
+    src: url("../fonts/TwCenMT-Italic.eot");
+    src: url("../fonts/TwCenMT-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TwCenMT-Italic.woff2") format("woff2"),
+        url("../fonts/TwCenMT-Italic.woff") format("woff"),
+        url("../fonts/TwCenMT-Italic.ttf") format("truetype"),
+        url("../fonts/TwCenMT-Italic.svg#TwCenMT_Italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TwCenMT";
+    src: url("../fonts/TwCenMT.eot");
+    src: url("../fonts/TwCenMT.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TwCenMT.woff2") format("woff2"),
+        url("../fonts/TwCenMT.woff") format("woff"),
+        url("../fonts/TwCenMT.ttf") format("truetype"),
+        url("../fonts/TwCenMT.svg#TwCenMT") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 $font-lato-black: 'Lato Black', sans-serif;
 $font-lato-blackitalic: 'Lato BlackItalic', sans-serif;
@@ -600,6 +677,13 @@ $font-rubik-regular: 'Rubik Regular', sans-serif;
 $font-rubik-light: 'Rubik Light', sans-serif;
 $font-rubik-lightitalic: 'Rubik LightItalic', sans-serif;
 $font-freshman: 'Freshman', sans-serif;
+$font-twcenmt-bold: 'TwCenMT Bold', sans-serif;
+$font-twcenmt-bolditalic: 'TwCenMT BoldItalic', sans-serif;
+$font-twcenmt-condensed: 'TwCenMT Condensed', sans-serif;
+$font-twcenmt-condensedbold: 'TwCenMT CondensedBold', sans-serif;
+$font-twcenmt-condensedextrabold: 'TwCenMT CondensedExtraBold', sans-serif;
+$font-twcenmt-italic: 'TwCenMT Italic', sans-serif;
+$font-twcenmt: 'TwCenMT', sans-serif;
 
 .font-component {
     width: 90vw;
@@ -672,4 +756,11 @@ $font-freshman: 'Freshman', sans-serif;
     &__rubik-light { font-family: $font-rubik-light; }
     &__rubik-lightitalic { font-family: $font-rubik-lightitalic; }
     &__freshman { font-family: $font-freshman; }
+    &__twcenmt-bold { font-family: $font-twcenmt-bold; }
+    &__twcenmt-bolditalic { font-family: $font-twcenmt-bolditalic; }
+    &__twcenmt-condensed { font-family: $font-twcenmt-condensed; }
+    &__twcenmt-condensedbold { font-family: $font-twcenmt-condensedbold; }
+    &__twcenmt-condensedextrabold { font-family: $font-twcenmt-condensedextrabold; }
+    &__twcenmt-italic { font-family: $font-twcenmt-italic; }
+    &__twcenmt { font-family: $font-twcenmt; }
 }
