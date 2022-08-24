@@ -1,5 +1,8 @@
 # Font Component
 
+#### Aug 24 2022
+Added TwCenMT fonts.
+
 #### Aug 18 2022
 Added the remaining set of Freshman font.
 
