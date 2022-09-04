@@ -1,5 +1,8 @@
 # Font Component
 
+#### Sep 5 2022
+Added Aller fonts.
+
 #### Aug 24 2022
 Added TwCenMT fonts.
 

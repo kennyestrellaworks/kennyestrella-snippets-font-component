@@ -7,9 +7,9 @@
   "scripts": {
     "watchSass": "sass --watch sass/style.scss:css/style.css",
     "liveServer": "live-server",
-    "prefixCSS": "postcss css/style.css --use autoprefixer -o css/style.prefix.css",
-    "uglifyCSS": "uglifycss css/style.prefix.css --output _dist/css/style.css",
-    "modifyCSS": "npm-run-all prefixCSS uglifyCSS",
+    "prefixCSS": "postcss css/style.css --use autoprefixer -b \"last 10 version\" -o css/style.prefix.css",
+    "uglifyCSS": "uglifycss css/style.prefix.css --output css/style.prefix.uglify.css",
+    "distCSS": "npm-run-all prefixCSS uglifyCSS",
     "startDev": "npm-run-all --parallel watchSass liveServer"
   },
   "keywords": [],
